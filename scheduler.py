@@ -94,7 +94,7 @@ class Scheduler(object):
         doctor.doctor_calendar[CLASS_APPOINTMENT_INFO][time] = patient.get_patient_record()
 
 
-
+# checking the functoning wiith some raw data. actually need to run it with a database with doctor and patient info
 D1 = Doctor("R", "Dental")
 D2 = Doctor("A","General")
 P1 = Patient("W", "1234")
